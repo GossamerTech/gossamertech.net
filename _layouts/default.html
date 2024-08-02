@@ -16,43 +16,51 @@
 				box-sizing: border-box;
 				font-size: calc(15px + 0.390625vw);
 			}
+			header, footer { padding: 1rem }
 			header {
-    			align-items: center;
-    			column-gap: 1rem;
-    			display: flex;
-    			height: 5.5rem;
-    			justify-content: space-between;
-    			left: 0;
-    			padding: 1rem;
-    			position: fixed;
-    			right: 0;
-    			top: 0;
-    			z-index: 97;
+    				align-items: center;
+	    			column-gap: 1rem;
+	    			display: flex;
+	    			height: 5.5rem;
+	    			justify-content: space-between;
+	    			left: 0;
+	    			position: fixed;
+	    			right: 0;
+	    			top: 0;
+	    			z-index: 97;
 			}
 			a, a:visited, a:hover, a:active {
 			    text-decoration: none;
 			   	color: rgb(255, 255, 255);
             }
+            header h1 {
+                text-wrap: nowrap;
+                text-transform: uppercase;
+                font-weight: 800;
+                font-size: 1.2em;
+                background: linear-gradient(to right, rgb(239,158,163), rgb(253,196,94));
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+		    }
 			header nav ol {
 				list-style-type: none;
 				display: flex;
 				align-items: center;
-				margin-left: 1em;
+				column-gap: 1rem;
+				padding: 1rem;
 			}
 			header nav ol li {display: inline-block}
-			header h1 {font-size: 1em; font-weight: 400}
+			header a {text-wrap: nowrap; font-weight: 600}
 			main {padding: 6.5rem 1rem 5rem}
 		</style>
 	</head>
 	<body>
 		<header>
-			<a href="/">
-				Gossamer Technologies
-        	</a>
+			<h1>Gossamer Tech</h1>
 			<nav>
 				<ol>
-					<li><a href="#">Products</a></li>
-					<li><a href="#">Contact Us</a></li>
+					<li><a href="/products">Products</a></li>
+					<li><a href="/contact">Contact Us</a></li>
 				</ol>
 			</nav>
 		</header>
@@ -60,9 +68,7 @@
 		{{ content }}
 		</main>
 		<footer>
-			<!--
 			<p>© 2024 Gossamer Technologies. All rights reserved.</p>
-			-->
 		</footer>
 	</body>
 </html>
