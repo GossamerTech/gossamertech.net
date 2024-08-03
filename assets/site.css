@@ -93,7 +93,7 @@ form {
 	align-items: stretch;
 	margin: 0 auto;	
 	max-width: 30rem;
-	row-gap: 1rem;
+	row: 1rem;
 }
 form label {color: var(--color-dimmed)}
 form input, form label, form textarea {flex: 1}
