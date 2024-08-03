@@ -34,6 +34,3 @@ Count on our expertise and support to keep your systems running smoothly.
 
 ### Innovative
 Stay ahead of the competition with cutting-edge technology tailored for the industrial sector.
-
-## Contact Us
-Ready to transform your manufacturing process? Get in touch with us today to learn more about our IoT solutions and how we can help your business thrive.
