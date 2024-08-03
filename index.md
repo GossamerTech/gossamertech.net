@@ -22,13 +22,18 @@ Seamlessly integrate your IoT devices with Amazon Web Services (AWS) to leverage
 ![Global Analytics](assets/images/global-analytics-dark.svg)
 
 ## Why Choose Gossamer Technologies?
-**Cost-Effective:** Our solutions are designed to be affordable without compromising on quality or performance.
 
-**Scalable:** Easily scale our IoT solutions to meet the growing needs of your manufacturing operations.
+### Cost-Effective
+Our solutions are designed to be affordable without compromising on quality or performance.
 
-**Reliable:** Count on our expertise and support to keep your systems running smoothly.
+### Scalable
+Easily scale our IoT solutions to meet the growing needs of your manufacturing operations.
 
-**Innovative:** Stay ahead of the competition with cutting-edge technology tailored for the industrial sector.
+### Reliable
+Count on our expertise and support to keep your systems running smoothly.
+
+### Innovative
+Stay ahead of the competition with cutting-edge technology tailored for the industrial sector.
 
 ## Contact Us
 Ready to transform your manufacturing process? Get in touch with us today to learn more about our IoT solutions and how we can help your business thrive.
