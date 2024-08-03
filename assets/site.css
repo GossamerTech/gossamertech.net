@@ -96,7 +96,7 @@ form {
 	row: 1rem;
 }
 form label {color: var(--color-dimmed)}
-/*form input, form label, form textarea {flex: 1}*/
+form input, form label, form textarea {flex: 1}
 form input[type=text], form input[type=email], form textarea {
     background: var(--color-input);
     border: 2px solid transparent;
