@@ -25,7 +25,8 @@
 	--color-background: rgb(4,9,25);
 	--color-text: rgb(255,255,255);
 	--color-primary: rgb(68,50,223);
-	--color-button: rgb(68,50,223, 0.4);
+	--color-button: rgb(68,50,223,0.4);
+	--color-input: rgb(208,211,245,0.4);
 	--color-dimmed: rgb(162,162,162);
 	--color-light: rgb(208,211,245);
 }
@@ -96,7 +97,7 @@ form {
 form label {color: var(--color-dimmed)}
 form input, form label, form textarea {flex: 1}
 form input[type=text], form input[type=email] {
-    background: var(--color-dimmed);
+    background: var(--color-input);
     border: 2px solid transparent;
     border-radius: 0.36rem;
     caret-color: var(--color-light);
