@@ -94,7 +94,15 @@ form {
 	row-gap: 1rem;
 }
 form label {color: var(--color-dimmed)}
-form input, form label, textarea {flex: 1}
+form input, form label, form textarea {flex: 1}
+form input[type=text], form input[type=email] {
+    background: var(--color-dimmed);
+    border: 2px solid transparent;
+    border-radius: 0.36rem;
+    caret-color: var(--color-light);
+    color: var(--color-text);
+    padding: 0.5rem 0.75rem;
+}
 input[type=submit] {
     background: var(--color-button);
     border: 0;
