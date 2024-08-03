@@ -71,7 +71,7 @@ header {
 	z-index: 97;
 }
 header a, header a:visited, header a:hover, header a:active {
-	text-decoration: none
+	text-decoration: none;
 	color: var(--color-dimmed);
 }
 header span {
