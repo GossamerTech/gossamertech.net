@@ -62,6 +62,7 @@ h2 {
 }
 h1, h2 {color: var(--color-text)}
 h3 {color: var(--color-light)}
+small {font-size: .8rem}
 header, footer { padding: 1rem }
 header, footer, main {
 	max-width: 50rem;
