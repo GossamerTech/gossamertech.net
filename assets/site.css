@@ -47,6 +47,7 @@ img {
     height:auto;
     max-width:100%;
     max-height:90%;
+    margin: 0 auto;
 }
 a, a:visited, a:hover, a:active {
 	text-decoration: underline;
