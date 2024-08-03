@@ -1,0 +1,5 @@
+url: "https://gossamertech.net"
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed

@@ -1,0 +1,89 @@
+@font-face {
+    font-display: swap;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(assets/open-sans-regular.woff2) format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 500;
+	src: url(assets/open-sans-medium.woff2) format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url(assets/open-sans-bold.woff2) format('woff2');
+}
+:root {
+	--color-background: rgb(4,9,25);
+	--color-text: rgb(255,255,255);
+	--color-primary: rgb(68,50,223);
+	--color-dimmed: rgb(162,162,162);
+	--color-light: rgb(208,211,245);
+}
+*, ::after, ::before {
+	box-sizing: border-box;
+	line-height: 1.5rem;
+	font-family: 'Open Sans', sans-serif;
+}
+body {margin: 0}
+body, html {	
+	background-color: var(--color-background);
+	color: var(--color-text);
+	box-sizing: border-box;
+	font-size: calc(15px + 0.390625vw);
+}
+h1 {line-height: 2.25rem}
+h2 {font-weight: 400; padding-top: 2rem}
+h1, h2 {color: var(--color-text)}
+h3 {color: var(--color-light)}
+header, footer { padding: 1rem }
+img {
+	width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:90%;
+}
+a, a:visited, a:hover, a:active {
+	text-decoration: underline;
+	color: var(--color-primary);
+}
+header {
+	background: linear-gradient(0deg, transparent 0, var(--color-background) 1rem);
+    	align-items: center;
+	column-gap: 1rem;
+	display: flex;
+	height: 5.5rem;
+	justify-content: space-between;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 97;
+}
+header a, header a:visited, header a:hover, header a:active {
+	text-decoration: none;
+	color: var(--color-dimmed);
+}
+header span {
+    text-wrap: nowrap;
+    font-weight: 600;
+}
+header nav ol {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	column-gap: 1rem;
+	padding: 1rem;
+}
+header nav ol li {display: inline-block}
+header a {text-wrap: nowrap}
+main {padding: 6.5rem 1rem 5rem}
+footer {color: var(--color-dimmed)}
