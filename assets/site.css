@@ -47,6 +47,10 @@ h2 {font-weight: 400; padding-top: 2rem}
 h1, h2 {color: var(--color-text)}
 h3 {color: var(--color-light)}
 header, footer { padding: 1rem }
+header, footer, main {
+	max-width: 50rem;
+	margin: 0 auto;
+}
 img {
 	width:auto;
     height:auto;
