@@ -15,12 +15,21 @@
 			<nav>
 				<ol>
 					<li><a href="/products">Products</a></li>
-					<li><a href="/contact">Contact</a></li>
+					<li><a href="#contact-us">Contact</a></li>
 				</ol>
 			</nav>
 		</header>
 		<main>
-		{{ content }}
+			{{ content }}
+			<h2 id="contact-us">Contact Us</h2>
+			<p>Ready to transform your manufacturing process? Get in touch with us today to learn more about our IoT solutions and how we can help your business thrive.</p>
+			<form class="contact">
+				<input type="text" id="first" placeholder="First Name" required>
+				<input type="text" id="ladt" placeholder="Last Name" required>
+				<input type="email" id="email" placeholder="Email Address" required>
+				<textarea id="comment" name="comment" rows="4" required></textarea>
+				<input type="submit" value="Submit">
+			</form>
 		</main>
 		<footer>
 			<center>
