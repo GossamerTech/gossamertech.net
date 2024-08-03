@@ -86,4 +86,9 @@ header nav ol {
 header nav ol li {display: inline-block}
 header a {text-wrap: nowrap}
 main {padding: 6.5rem 1rem 5rem}
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
 footer {color: var(--color-dimmed)}
