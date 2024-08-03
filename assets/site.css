@@ -93,6 +93,7 @@ form {
 	max-width: 30rem;
 	row-gap: 1rem;
 }
+form label {color: var(--color-dimmed)}
 form input, form label, textarea {flex: 1}
 input[type=submit] {
     background: var(--color-button);
