@@ -25,6 +25,8 @@
 	--color-background: rgb(4,9,25);
 	--color-text: rgb(255,255,255);
 	--color-primary: rgb(68,50,223);
+	--color-button: rgb(68,50,223,0.4);
+	--color-input: rgb(208,211,245,0.2);
 	--color-dimmed: rgb(162,162,162);
 	--color-light: rgb(208,211,245);
 }
@@ -86,4 +88,33 @@ header nav ol {
 header nav ol li {display: inline-block}
 header a {text-wrap: nowrap}
 main {padding: 6.5rem 1rem 5rem}
+form {
+	display: flex;
+	flex-flow: column wrap;
+	margin: 2rem auto;	
+	max-width: 30rem;
+	row: 1rem;
+	gap: 1rem;
+}
+form input, form textarea {
+	flex: 1;
+	border-radius: 0.36rem;
+	padding: 0.5rem 0.75rem;
+}
+form input[type=text], form input[type=email], form textarea {
+    background: var(--color-input);
+    border: 2px solid transparent;
+    caret-color: var(--color-light);
+    color: var(--color-text);
+}
+input[type=submit] {
+    background: var(--color-button);
+    border: 0;
+    color: var(--color-light);
+    font-weight: 500;
+}
+input[type=search]:focus {
+    color: var(--color-text);
+    outline: none;
+}
 footer {color: var(--color-dimmed)}
