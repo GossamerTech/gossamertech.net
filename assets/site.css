@@ -93,6 +93,7 @@ header a:hover {
 	color: var(--color-light);
 }
 header span {
+	color: var(--color-text);
     text-wrap: nowrap;
     font-weight: 600;
 }
