@@ -3,6 +3,8 @@ layout: default
 title: "Andon System | Gossamer Technologies"
 ---
 
+![Product Development](assets/images/product-development-dark.svg)
+
 # Transforming Your Manufacturing Process with Real-Time Monitoring and Control
 
 ## Overview
