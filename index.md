@@ -9,8 +9,6 @@ title: "Gossamer Technologies"
 
 At Gossamer Technologies, we specialize in designing and delivering affordable IoT solutions tailored for the industrial manufacturing sector. Our goal is to empower your operations with advanced technology that enhances efficiency, reduces downtime, and improves overall productivity.
 
-![Product Analytics](assets/images/product-analytics-dark.svg)
-
 ## Our Solutions
 
 ### IoT Integration with Cloud Services
@@ -34,3 +32,5 @@ Count on our expertise and support to keep your systems running smoothly.
 
 ### Innovative
 Stay ahead of the competition with cutting-edge technology tailored for the industrial sector.
+
+![Product Analytics](assets/images/product-analytics-dark.svg)
