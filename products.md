@@ -7,8 +7,6 @@ title: "Andon System | Gossamer Technologies"
 
 # Transforming Your Manufacturing Process with Real-Time Monitoring and Control
 
-## Overview
-
 Gossamer Technologies' Andon System is designed to revolutionize your production line by providing comprehensive control and monitoring solutions. Our Andon system enhances communication, improves efficiency, and minimizes downtime, ensuring your manufacturing operations run smoothly and effectively.
 
 ## Key Features
