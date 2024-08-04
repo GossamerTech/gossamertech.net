@@ -46,11 +46,12 @@ body, html {
 	font-size: calc(15px + 0.390625vw);
 }
 img {
-	width:auto;
-    height:auto;
+	width: auto;
+    height: auto;
     max-width:100%;
     max-height:90%;
     margin: 0 auto;
+    display: block;
 }
 a, a:visited, a:hover, a:active {
 	text-decoration: underline;
