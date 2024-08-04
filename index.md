@@ -17,7 +17,7 @@ At Gossamer Technologies, we specialize in designing and delivering affordable I
 Seamlessly integrate your IoT devices with [Amazon Web Services](https://aws.amazon.com) (AWS) to leverage powerful cloud computing capabilities. Our solutions ensure secure and efficient data processing, device management, and real-time analytics.
 
 ### Hardware Solutions
-**Andon System Control and Monitoring:** Enhance your manufacturing process with our robust [Andon system](/andon). Monitor production lines, track issues in real-time, and streamline communication between operators and management to maintain optimal workflow.
+**Andon System Control and Monitoring:** Enhance your manufacturing process with our robust Andon system. Monitor production lines, track issues in real-time, and streamline communication between operators and management to maintain optimal workflow.
 
 ![Global Analytics](assets/images/global-analytics-dark.svg)
 
