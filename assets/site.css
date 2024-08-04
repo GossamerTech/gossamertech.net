@@ -84,11 +84,11 @@ header {
 	top: 0;
 	z-index: 97;
 }
-header a, header a:visited, header a:active {
+header a, header a:visited {
 	text-decoration: none;
 	color: var(--color-dimmed);
 }
-header a:hover {
+header a:hover, header a:active {
 	text-decoration: none;
 	color: var(--color-light);
 }
