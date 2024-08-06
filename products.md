@@ -56,8 +56,17 @@ Ensure smooth operation of production lines and compliance with safety standards
 
 ## How It Works
 
-1. **Setup and Configuration:** Our team will work with you to configure the Andon system according to your specific requirements.
-2. **Implementation:** The system is installed on your production line, with visual and auditory indicators placed at strategic points.
-3. **Integration:** The Andon system integrates with your existing IoT devices and cloud services, providing a centralized view of your operations.
-4. **Monitoring:** Operators and management can monitor the production line in real-time, receiving alerts and accessing data through customizable dashboards.
-5. **Maintenance and Support:** We provide ongoing support and maintenance to ensure your Andon system continues to operate effectively.
+### Setup and Configuration
+Our team will work with you to configure the Andon system according to your specific requirements.
+
+### Implementation
+The system is installed on your production line, with visual and auditory indicators placed at strategic points.
+
+### Integration
+The Andon system integrates with your existing IoT devices and cloud services, providing a centralized view of your operations.
+
+### Monitoring
+Operators and management can monitor the production line in real-time, receiving alerts and accessing data through customizable dashboards.
+
+### Maintenance and Support
+We provide ongoing support and maintenance to ensure your Andon system continues to operate effectively.
