@@ -17,8 +17,6 @@ Seamlessly integrate your IoT devices with [Amazon Web Services](https://aws.ama
 ### Hardware Solutions
 **Andon System Control and Monitoring:** Enhance your manufacturing process with our robust Andon system. Monitor production lines, track issues in real-time, and streamline communication between operators and management to maintain optimal workflow.
 
-![Global Analytics](assets/images/global-analytics-dark.svg)
-
 ## Why Choose Gossamer Technologies?
 
 ### Cost-Effective
