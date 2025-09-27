@@ -7,7 +7,7 @@ title: "Gossamer Technologies"
 
 # Affordable IoT for Smarter Manufacturing
 
-We deliver low-cost IoT solutions that reduce downtime and increase productivity.
+Cut downtime. Boost output. Scale smarter.
 
 ## Our Solutions
 
