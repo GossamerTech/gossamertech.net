@@ -12,24 +12,24 @@ We deliver low-cost IoT solutions that reduce downtime and increase productivity
 ## Our Solutions
 
 ### IoT + Cloud
-Connect your devices to [AWS](https://aws.amazon.com) for secure data processing, device management, and real-time analytics.
+Connect your devices to [AWS](https://aws.amazon.com) for secure data processing, device management, and real-time insights.
 
 ### Hardware
 #### Andon System Control & Monitoring
-Track production issues in real time, improve communication between operators and managers, and keep workflows running smoothly.
+Track production issues instantly, improve operator–manager communication, and keep workflows moving.
 
 ## Why Gossamer Technologies?
 
-### Cost-Effective
+### Big Value, Low Cost
 Affordable solutions without sacrificing quality.
 
-### Scalable
-Easily expand as your operations grow.
+### Scale Without Limits
+Expand seamlessly as your operations grow.
 
-### Reliable
-Expert support to keep systems running.
+### Dependable Performance
+Count on expert support to keep systems running.
 
-### Innovative
-Industry-focused technology to stay ahead.
+### Ahead of the Curve
+Stay competitive with technology built for industry.
 
 ![Product Analytics](assets/images/product-analytics-dark.svg)
