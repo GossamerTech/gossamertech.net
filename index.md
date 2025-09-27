@@ -5,9 +5,9 @@ title: "Gossamer Technologies"
 
 ![Data Processing](assets/images/data-processing-dark.svg)
 
-# Innovating the Future of Industrial Manufacturing with Low-Cost IoT Solutions.
+# Affordable IoT for Smarter Manufacturing
 
-At Gossamer Technologies, we specialize in designing and delivering affordable IoT solutions tailored for the industrial manufacturing sector. Our goal is to empower your operations with advanced technology that enhances efficiency, reduces downtime, and improves overall productivity.
+We build low-cost IoT solutions to help factories run better, cut downtime, and boost productivity.
 
 ## Our Solutions
 
