@@ -7,7 +7,147 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link rel="icon" href="assets/favicon.svg">
 		<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
-		<link rel="stylesheet" href="assets/site.css" />
+		<style>
+			@font-face {
+				font-display: swap;
+				font-family: 'Open Sans';
+				font-style: normal;
+				font-weight: 400;
+				src: url(assets/open-sans-regular.woff2) format('woff2');
+			}
+
+			@font-face {
+				font-display: swap;
+				font-family: 'Open Sans';
+				font-style: normal;
+				font-weight: 500;
+				src: url(assets/open-sans-medium.woff2) format('woff2');
+			}
+
+			@font-face {
+				font-display: swap;
+				font-family: 'Open Sans';
+				font-style: normal;
+				font-weight: 700;
+				src: url(assets/open-sans-bold.woff2) format('woff2');
+			}
+			:root {
+				--color-background: rgb(4,9,25);
+				--color-text: rgb(255,255,255);
+				--color-primary: rgb(68,50,223);
+				--color-button: rgba(68,50,223,0.4);
+				--color-input: rgba(208,211,245,0.2);
+				--color-dimmed: rgb(162,162,162);
+				--color-light: rgb(208,211,245);
+				--color-header: rgba(68,50,223,0.08);
+				--color-border: rgba(255, 255, 255, 0.12);
+			}
+			*, ::after, ::before {
+				box-sizing: border-box;
+				line-height: 1.5rem;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 1rem;
+			}
+			body {margin: 0}
+			body, html {	
+				background-color: var(--color-background);
+				color: var(--color-text);
+				box-sizing: border-box;
+				font-size: calc(15px + 0.390625vw);
+			}
+			img {
+				width: auto;
+				height: auto;
+				max-width:100%;
+				max-height:90%;
+				margin: 0 auto;
+				display: block;
+			}
+			a, a:visited, a:hover, a:active {
+				text-decoration: underline;
+				color: var(--color-primary);
+			}
+			h1 {line-height: 2.25rem; font-size: 2rem}
+			h2 {
+				font-weight: 400;
+				padding-top: 5rem;
+				font-size: 1.5rem;
+			}
+			h1, h2 {color: var(--color-text)}
+			h3 {color: var(--color-light)}
+			small {font-size: .8rem}
+			header, footer { padding: 1rem }
+			header, footer, main {
+				max-width: 50rem;
+				margin: 0 auto;
+			}
+			header {
+				background: linear-gradient(0deg, transparent 0, var(--color-background) 1rem);
+				align-items: center;
+				column-gap: 1rem;
+				display: flex;
+				height: 5.5rem;
+				justify-content: space-between;
+				left: 0;
+				position: fixed;
+				right: 0;
+				top: 0;
+				z-index: 97;
+			}
+			header a, header a:visited {
+				text-decoration: none;
+				color: var(--color-dimmed);
+			}
+			header a:hover, header a:active {
+				text-decoration: none;
+				color: var(--color-light);
+			}
+			header span {
+				color: var(--color-text);
+				text-wrap: nowrap;
+				font-weight: 600;
+			}
+			header nav ol {
+				list-style-type: none;
+				display: flex;
+				align-items: center;
+				column-gap: 1rem;
+				padding: 1rem;
+			}
+			header nav ol li {display: inline-block}
+			header nav ol li a {text-wrap: nowrap}
+			main {padding: 6.5rem 1rem 5rem}
+			form {
+				display: flex;
+				flex-flow: column wrap;
+				margin: 2rem auto;	
+				max-width: 30rem;
+				row: 1rem;
+				gap: 1rem;
+			}
+			form input, form textarea {
+				flex: 1;
+				border-radius: 0.36rem;
+				padding: 0.5rem 0.75rem;
+			}
+			form input[type=text], form input[type=email], form textarea {
+				background: var(--color-input);
+				border: 2px solid transparent;
+				caret-color: var(--color-light);
+				color: var(--color-text);
+			}
+			input[type=submit] {
+				background: var(--color-button);
+				border: 0;
+				color: var(--color-light);
+				font-weight: 500;
+			}
+			input[type=search]:focus {
+				color: var(--color-text);
+				outline: none;
+			}
+			footer {color: var(--color-dimmed)}
+		</style>
 	</head>
 	<body>
 		<header>
